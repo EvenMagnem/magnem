@@ -4,12 +4,6 @@
     <div class="fog-container">
     <img src="~/assets/fog.png" />
     <img src="~/assets/fog.png" />
-    <img src="~/assets/fog.png" />
-    <img src="~/assets/fog.png" />
-    <img src="~/assets/fog.png" />
-    <img src="~/assets/fog.png" />
-    <img src="~/assets/fog.png" />
-    <img src="~/assets/fog.png" />
     </div>
     <img
       ref="logo"
@@ -49,11 +43,10 @@ export default {
   left:0px;
   overflow:hidden;
   white-space: nowrap;
-  animation: bannermove 80s linear infinite;
+  animation: bannermove 30s linear infinite;
 }
 .fog-container img {
   filter: blur(12px);
-
 }
 
 @keyframes bannermove {
